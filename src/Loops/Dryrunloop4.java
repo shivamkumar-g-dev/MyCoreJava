@@ -1,0 +1,28 @@
+package Loops;
+
+import java.util.Scanner;
+
+public class Dryrunloop4 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print(" Enter a number : ");
+		
+		int n = sc.nextInt();
+		
+		for(int row = 5; row >= 1 ; row --) {
+			for(int j = 1; j <= row ; j++) {
+				System.out.print(row + " ");
+			}
+			System.out.println();
+		}
+		// TODO Auto-generated method stub
+
+	}
+
+
+
+
+
+}
