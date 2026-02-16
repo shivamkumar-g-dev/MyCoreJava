@@ -12,7 +12,6 @@ public class StarPattern2 {
 			}
 			System.out.println();
 		}
-		// TODO Auto-generated method stub
 
 	}
 
